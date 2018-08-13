@@ -1,0 +1,22 @@
+/* Font Colors */
+
+$base-font-size:20px;
+$base-font-family:'Poppins', sans-serif;
+$base-font-color:#000;
+
+
+/* Background Colors */
+
+$primary-color:rgb(189, 233, 255);
+$secondary-color:#0070cd;
+$light-color:#bde9ff;
+$dark-color:#17313e;
+
+/* HOVER EFFECTS */
+
+$bg: #bde9ff;
+$text: rgba(255,255,255,.7);
+$hover: darken($bg, 10%);
+
+
+$carousel-transition: 8.0s;

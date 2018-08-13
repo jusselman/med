@@ -1,0 +1,415 @@
+@media(max-width:1200px)
+{
+
+  .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: black;
+}
+
+
+}
+
+// @media(max-width: 769px) {
+//
+//   .navbar-collapse {
+//     display: block;
+//   }
+//
+//     margin-left: -200px !important;
+//     margin-top: -92px !important;
+//   }
+//
+//   .main-content {
+//     margin-top: -100px !important;
+//   }
+//
+//   .section-about {
+//
+//     padding-bottom: 75px !important;
+//     margin: 0 auto !important;
+//
+//
+//   h1 {
+//     width: 100% !important;
+//
+//   }
+//
+// }
+
+@media(max-width: 800px)
+ {
+
+   body {
+   text-align: center;
+   // overflow-x: hidden !important;
+}
+
+  // NAVBAR NAVBAR NAVBAR NAVBABKLSA;JFDKLDAS;JFKLSA;DJF //
+  .navbar {
+    border-left: 1px solid $primary-color;
+    border-right: 1px solid $primary-color;
+
+    .mobile-title {
+      display:block;
+      margin: 0 auto;
+      font-size: 40px;
+    }
+
+    img {
+      display: none;
+    }
+
+    a:not([href]):not([tabindex]) {
+      display: none;
+    }
+  }
+
+  ul.navbar-nav {
+
+      background-color: #ebffff !important;
+      padding-bottom: 100px;
+
+      .logo {
+        display: none;
+
+      }
+
+  }
+
+
+
+  .nav-item {
+    text-align: margin-left;
+
+      // a {
+      //   font-size: 30px!important;
+      //   color: #000;
+      //
+      //
+      // }
+
+      h1 {
+        line-height: 2;
+      }
+
+      a:hover {
+        color: $primary-color;
+      }
+    }
+
+
+
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+.custom-toggler.navbar-toggler {
+border-color: $primary-color !important;
+}
+
+  .nav-link:hover {
+      color: #000;
+      background-color: rgba(0,0,0,0) !important;
+      border-color: #2E6DA4 !important;
+      border-radius: 15px;
+  }
+
+  .nav-item.active {
+    background: rgba(0,0,0,0) !important;
+    border-radius: 15px;
+    a{
+      color:#000;
+    }
+  }
+
+// CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL //
+.carousel {
+    // background-image: url(../img/showcase1.jpg);
+    // background-size: cover;
+    // background-position: center;
+    // height: 100vh;
+    // width: 50%;
+    // // background-attachment: fixed;
+    // top: 0;
+    // left: 0;
+    visibility: hidden !important;
+
+  }
+
+
+
+
+
+// MAIN SECTION MAIN SECTIOTN MAIN SECTION //
+  .section-main {
+
+      background-image: url('../img/mobileHome.jpg');
+
+    h1 {
+      font-size: 4em !important;
+      line-height: 2 !important;
+    }
+
+    .arrow {
+      margin: -100px auto;
+    }
+    // #fadedSF {
+    //   margin: 0;
+    // }
+
+  }
+
+  #main {
+    line-height: .9 !important;
+    // margin: 0;
+  }
+.main-content h2, .main-content h4, .main-content h3 {
+  margin:30px auto !important;
+}
+
+.section-main h1.content {
+  margin-top: 4em !important;
+}
+
+  footer {
+    height: 850px !important;
+    bottom: 0 !important;
+
+    h2 {
+      padding-bottom: 60px;
+    }
+
+    ul {
+      padding-bottom: 30px !important;
+    }
+
+    .footer-content {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      padding-top: 70px !important;
+    }
+    a {
+      color: #000;
+    }
+  }
+
+  // ABOUT SECTION ABOUT SECTION ABOUT SECTION //
+  .section-about {
+    height: 2600px !important;
+  .border-between {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .about-header {
+    width: 100% !important;
+    margin: 20% auto !important;
+  }
+  .arrow2 {
+        display: none !important;
+  }
+
+}
+
+
+// DOCTORS DOCTORS DOCTORS DOCTORS //
+  .section-doctors {
+    height: 2300px !important;
+
+    .header {
+      height: 100px !important;
+      padding-top: 100px !important;
+    }
+
+    h1 {
+      width: 100% !important;
+    }
+    .doctors {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      margin-top: 25% !important;
+    }
+
+    .arrow3 {
+      display: none !important;
+    }
+
+  }
+
+  // STAFF STAFF STAFF STAFF STAFF STAFF //
+
+.section-staff {
+  height: 1200px !important;
+
+ .header h1 {
+   margin: 20% auto !important;
+ }
+
+  .image-staff, h1, h3 {
+
+      width: 100% !important;
+      // height: 75vh;
+  }
+  .arrow4 {
+    display: none !important;
+  }
+
+  img {
+    height:  350px !important;
+  }
+}
+
+  // LOCATION LOCATION LOCATION LOCATION LOCATION //
+
+  .section-locations {
+    height: 3650px !important;
+
+    .box {
+      height: 1000px !important;
+    }
+    .oakland {
+      // text-align: center !important;
+      margin: 1050px auto !important;
+      display: block;
+      width: 100%;
+    }
+  }
+
+// FAQ FAQ FAQ FAQ FAQ FAQ FAQ//
+
+.section-faq {
+  height: 1500px !important;
+  .vl {
+    display:none;
+  }
+
+  h1 {
+    width:  100% !important;
+      }
+  ul {
+    width: 100% !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  li {
+    margin-left: 40px !important;
+    width: 100% !important;
+  }
+
+  .arrow2 {
+    display: none !important;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  .media {
+    margin-top: 75px !important;
+  }
+}
+
+
+
+}
+
+@media(max-width: 2100px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+
+
+  ul.navbar-nav {
+      background-color: #ebffff !important;
+      // padding-bottom: 100px;
+    }
+
+  .section-main {
+    h1 {
+      font-size: 4em !important;
+      line-height: 2 !important;
+    }
+
+    .arrow {
+      display: none;
+    }
+    .d-block {
+      position: absolute;
+      height: 1500px;
+
+    }
+
+    .arrow {
+      margin-top: 450px;
+    }
+}
+
+.section-doctors {
+}
+}
+
+// 2700 Media Size //
+@include mediaMd {
+
+  .section-tanaka {
+    grid-template-areas:
+      'bioImg'
+      'bio'
+      'bio'
+      'footer' !important;
+      grid-template-columns: 1fr !important;
+      background: none !important;
+      margin-top: 1rem !important;
+      text-align: center;
+      height: 2200px !important;
+      margin-left: 2rem !important;
+      margin-right: 2rem !important;
+      overflow:hidden;
+
+      // .load-hidden {
+      //   display: hidden;
+      // }
+
+      .bio {
+        margin-top: 1rem !important;
+        padding: 0 20px;
+        text-align: center;
+
+        h3, button, h4, a {
+          text-align: center !important;
+          margin: 0 auto;
+          display: block;
+          padding: 15px 0 !important;
+          text-decoration: none !important;
+        }
+      }
+
+      img {
+        height: 600px !important;
+      }
+
+
+
+
+  }
+
+  footer {
+    bottom: 0 !important;
+    grid-area: footer;
+  }
+}
+
+
+@include mediaMd {
+  .bio {
+    margin-top: 10rem !important;
+
+    }
+
+}

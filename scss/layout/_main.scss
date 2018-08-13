@@ -1,0 +1,273 @@
+.main-img {
+  height: 100vh;
+}
+// CONTENT THAT SITS ON TOP OF CAROUSEL //
+.main-content {
+    z-index: 1;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+
+    .inverted {
+      height: 150px;
+      width: 150px;
+      // display: none;
+    }
+
+    h2 {
+      font-size: 60px;
+    }
+
+    h2, h4, h3 {
+      color: #fff;
+      text-align: center;
+      width: 100%;
+      margin: 110px auto;
+    }
+}
+
+// MAIN CAROUSEL SECTION //
+
+.section-main {
+  height: 100%;
+  width: 100%;
+  // background-color: #000;
+  position: relative;
+
+  .brand{
+  		position: relative;
+  		width:150px;
+  		margin: 0 auto;
+  }
+  img.logo {
+  	margin: auto;
+  	position: absolute;
+  	height: 100px;
+  	width: 150px;
+  	top: 0; left: 0; bottom: 0; right: 0;
+  	// z-index:999;
+
+
+  }
+
+
+
+  h1.content {
+  font-size: 7.5rem;
+  font-weight: 700;
+  margin-top: 3.25em;
+  text-align: center;
+  // margin: 0 auto;
+  color: #fff;
+  position: relative;
+  // z-index:9999;
+  }
+
+#faded {
+  opacity: 0;
+  transition: opacity 1.0s linear 0s;
+}
+
+#fadedImg {
+  opacity: 0;
+  transition: opacity 1.0s linear 0s;
+}
+
+#fadedSF {
+  opacity: 0;
+  transition: opacity 1.0s linear 0s;
+}
+
+#fadedContact {
+  opacity: 0;
+  transition: opacity 1.0s linear 0s;
+}
+
+#arrow {
+  opacity: 0;
+  transition: opacity 1.0s linear 0s;
+}
+
+#contact-button {
+  margin-top:3.5em;
+  transition: color 1.0s linear;
+}
+
+
+
+
+
+
+  a {
+    color: #fff !important;
+    text-decoration: none;
+    transition:1.0s linear;
+
+  }
+
+  a:hover {
+    font-size:75px !important;
+    text-decoration: underline;
+  }
+
+
+
+}
+
+.arrow {
+  color: white;
+  font-size: 80px;
+  /* margin: 0 auto; */
+  width: 100%;
+  transform: rotate(180deg);
+  display: block;
+  text-align: center;
+  position: absolute;
+  margin: -10px auto;
+  animation: bounce 2s ease infinite;
+
+  // transition: font-size 1s;
+  a {
+    text-decoration: none !important;
+  }
+}
+
+
+
+@keyframes bounce {
+  0%{top:600px}
+  50%{top:620px}
+  100%{top:600px}
+}
+
+
+
+
+
+
+// Animate them biznatches //
+
+#app {
+  position: relative;
+  animation-name: headerrising;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes headerrising {
+  0% {bottom: -50px; opacity: 0;}
+  100% {bottom: 0; opacity: 1;}
+}
+
+// #carouselanim {
+//   position: relative;
+//   animation-name: carouseldrop;
+//   animation-duration: 2.5s;
+//   animation-fill-mode: forwards;
+// }
+//
+//
+// @keyframes carouseldrop {
+//   0% {top: -100px; opacity: 0;}
+//   100% {top: 0; opacity: 1;}
+// }
+
+#main {
+  position: relative;
+  line-height: .1;
+  animation-name: content;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes content {
+  0% {bottom:-100px; opacity: 0;}
+  100% {bottom: 0; opacity: 1;}
+}
+
+#secondary {
+  position: relative;
+  animation-name: doctors;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes doctors {
+  0% {right: -1000px; opacity: 0;}
+  100% {right: 0; opacity:1;}
+}
+
+#terciary {
+  position: relative;
+  animation-name: address;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes address {
+  0% {left: -1000px; opacity: 0;}
+  100% {left: 0; opacity: 1;}
+}
+
+#therest {
+  position: relative;
+  animation-name: rise;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rise {
+  0% {bottom: -50px; opacity: 0;}
+  100% {bottom: 0; opacity: 1;}
+}
+
+
+// BACK TO THE STEEZ //
+
+.address {
+  color: rgb(0, 108, 186);
+}
+
+.eyeSmart {
+  margin: 40px auto;
+  transition: 1000;
+
+
+  img {
+    height: 300px;
+    opacity: 1;
+    transition: .25s;
+
+
+  }
+
+  img:hover {
+    opacity: .75;
+    box-shadow: 0 1px 2px 1px #000;
+        position: relative;
+        transform: translateY(-10px);
+  }
+}
+
+.ojoListo {
+  margin: 40px auto;
+  transition: 1000;
+
+
+  img {
+    height: 300px;
+    border-radius: 100%;
+    opacity: 1;
+    transition: .25s;
+
+
+  }
+
+  img:hover {
+    opacity: .75;
+    box-shadow: 0 1px 2px 1px #000;
+        position: relative;
+        transform: translateY(-10px);
+  }
+}

@@ -1,0 +1,25 @@
+body, html {
+  font-family:$base-font-family;
+  font-size:$base-font-size;
+  line-height:1.7em;
+  color:$base-font-color;
+  max-width:100%;
+  background: #ebffff;
+  height:100%;
+  width: 100% !important;
+  padding:0 !important;
+  // margin:0 !important;
+  margin-right:-500px !important;
+
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.qanda {
+  text-align: center;
+  line-height: 2;
+  width: 50%;
+  margin: 200px auto;
+}
