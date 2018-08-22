@@ -1,4 +1,54 @@
+// Email submit functionality //
+function _(id){ return document.getElementById(id); }
+function submitForm(){
+	_("button").disabled = true;
+	_("status").innerHTML = 'please wait ...';
+	var formdata = new FormData();
+	formdata.append( "name", _("name").value );
+  formdata.append( "lastName", _("lastName").value );
+	formdata.append( "phoneNumber", _("phoneNumber").value );
+  formdata.append( "emailAddress", _("emailAddress").value );
+  formdata.append( "message", _("message").value );
 
+
+	formdata.append( "message", _("message").value );
+	var ajax = new XMLHttpRequest();
+	ajax.open( "POST", "parser.php" );
+	ajax.onreadystatechange = function() {
+		if(ajax.readyState == 4 && ajax.status == 200) {
+			if(ajax.responseText == "success"){
+				_("my_form").innerHTML = '<h2>Thank you '+_("name").value+', your message has been sent.</h2>';
+			} else {
+				_("status").innerHTML = ajax.responseText;
+				_("button").disabled = false;
+			}
+		}
+	}
+	ajax.send( formdata );
+}
+
+
+// $(document).ready(function() {
+//
+//   $('#submit').click(function() {
+//     var name = $('#name').val();
+//     var lastName = $('#lastName').val();
+//     var phoneNumber = $('#phoneNumber').val();
+//     var email = $('#email').val();
+//     var message = $('#message').val();
+//
+//     var varData = 'name=' + name + '&lastName=' + lastName + '&phoneNumber=' + phoneNumber + '&email=' + email + '&message=' + message;
+//
+//     $.ajax({
+//       type: "POST",
+//       url: "php.php",
+//       data: varData,
+//       success: function() {
+//         alert('Success');
+//       }
+//     });
+//   });
+// });
 
 // // TITLE FADING IN AND OUT //
 var faded_i = 0;
@@ -99,7 +149,7 @@ $(document).ready(function() {
   scrollLink.click(function(e) {
     e.preventDefault();
     $('body,html').animate({
-      scrollTop: $(this.hash).offset().top - 80
+      scrollTop: $(this.hash).offset().top - 50
     }, 1250 );
   });
 
@@ -124,7 +174,7 @@ $(document).ready(function() {
 // Scroll Reveal //var reveal = function myFunction(x) {
 
 // media query event handler
-if (window.innerWidth > 1000) {
+// if (window.innerWidth > 2100) {
  window.sr = ScrollReveal();
   sr.reveal('.info', {
     duration: 2000,
@@ -151,12 +201,3 @@ if (window.innerWidth > 1000) {
     origin: 'right',
     distance: '500px'
   });
-};
-
-
-
-//
-// $(window).resize(function() {
-//     if ($(window).width()>992){
-
-// if (window.width > 479) {

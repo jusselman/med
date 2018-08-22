@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Falkenstein</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="shortcun icon" type="image/ico" href="img/eyelogo.png">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     </head>
   <body>
 
@@ -17,14 +17,14 @@
       <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="mobile-title">Glaucoma Specialists<img src="img/eyelogo.png"></div>
+      <div class="mobile-title">GlaucomaSpecialists<img src="img/eyelogo.png"></div>
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav">
           <li>
            <img src="img/eyelogo.png">
           </li>
             <li class="logo">
-              <p><b>Glaucoma Specialists</b></p></li>
+              <p><b>GlaucomaSpecialists</b></p></li>
             <li class="nav-item">
              <a class="nav-link hover-effect scroll" href="index.html#home">Home<span class="sr-only">(current)</span></a>
           </li>
@@ -51,21 +51,24 @@
       </div>
     </nav>
 
-<section class="section-tanaka">
-  <!-- <div>
-    <div class="row"> -->
-    <div class="bioImg">
-      <h1>Iryna A. Falkenstein, M.D.</h1>
-      <h2>Ophthamology Specialist</h2>
-
-
-          <img class="doctor-img" src="img/falkenstein.jpg">
-
-        </div>
-
-        <div class="bio">
-          <h3>Professional Background</h3>
-          <h4>Prior to joining our practice Dr. Falkenstein served as an attending
+    <section class="section-tanaka">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="bioImg">
+              <h1 class="down">Iryna A. Falkenstein, M.D.</h1>
+              <img class="doctor-img info" src="img/falkenstein2.png">
+              <h2 class="doctor-left">Ophthamology Specialist</h2>
+            </div>
+              <img class="symbol info" src="img/symbol.png">
+            </div>
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-12">
+            <div class="bio">
+          <h3 class="doctor-right">Professional Background</h3>
+          <h4 class="info">Prior to joining our practice Dr. Falkenstein served as an attending
              physician on the full-time glaucoma faculty at Harvard Medical School
              and Massachusetts Eye and Ear Infirmary in Boston for 4 years, earning
              a reputation as an outstanding clinician and surgeon. She has also
@@ -74,8 +77,8 @@
              Ophthalmology and American Society of Cataract and Refractive Surgery.
             </h4>
 
-              <h3>Education Background</h3>
-              <h4>Dr. Falkenstein is a board certified and fellowship-trained
+              <h3 class="doctor-left">Education Background</h3>
+              <h4 class="info">Dr. Falkenstein is a board certified and fellowship-trained
                 ophthalmologist specializing in medical and surgical glaucoma
                 management. She completed her medical education, including an
                 ophthalmology residency at Crimean Medical University in Russia
@@ -83,23 +86,20 @@
                 Shiley Eye Center at UC San Diego.  She finished her ophthalmology
                 residency at UTHSCA in San Antonio, TX and completed a glaucoma
                 fellowship with Dr. Donald Budenz  at University of North Carolina,
-                Chapel Hill in 2013.</h4>
-
-
-                <a href="fResume.html">
+                Chapel Hill in 2013.
+              </h4>
+                <a href="fResume.html" class="info">
                 <button class="resume">Complete Resume</button>
               </a>
-
-
         </div>
-
     </section>
 
+    <!-- footer section -->
     <footer>
       <div class="container-fluid">
         <div class="row footer-content">
-          <div class="col-12 col-md-4 down">
-            <h2><img src="img/eyelogoinverted.png"><span class="fancy">Glaucoma Specialists<br>
+          <div class="col-12 col-sm-12 col-md-4 down">
+            <h2><span class="fancy"><img src="img/eyelogoinverted.png">Glaucoma Specialists<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;&ensp; of San Francisco</span> </h2>
           </div>
           <div class="col-12 col-md-4 down">
@@ -114,36 +114,29 @@
                   <i class="fab fa-facebook fa-2x"></i>
                 </a>
                 </li>
-
             </ul>
           </div>
           <div class="col-12 col-md-4 ml-auto down">
             <ul>
               <li class="nav-item">
-                <a class="nav-link hover-effect" href="#home">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link hover-effect scroll" href="#home">Home <span class="sr-only">(current)</span></a>
               </li>
               <li>
-                <a href="#locations">Locations</a>
-                </li>
-              <li>
-                <a class="nav-link" href="#faq">FAQ</a>
+                <a class="nav-link scroll" href="#faq">FAQ</a>
               </li>
               <li>
-                <a class="nav-link" href="#doctors">Doctors</a>
+                <a class="nav-link scroll" href="#doctors">Doctors</a>
               </li>
               <li>
-                <a class="nav-link" href="#staff">Staff</a>
+                <a class="nav-link scroll" href="#staff">Staff</a>
               </li>
               <li>
-                <a class="nav-link" href="#media">Media</a>
+                <a href="#locations" class="scroll">Locations</a>
               </li>
               <li>
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link scroll" href="#contact">Contact</a>
               </li>
             </ul>
-
-
-
           </div>
         </div>
       </div>
@@ -157,6 +150,35 @@
      <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/vue"></script>
      <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-     <script src="js/main.js"></script>
+
+     <script>
+     window.sr = ScrollReveal();
+      sr.reveal('.info', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '150px'
+      });
+      sr.reveal('.down', {
+        duration: 2000,
+        origin: 'top',
+        distance: '150px'
+      });
+      sr.reveal('.doctor-left', {
+        duration: 2000,
+        origin: 'left',
+        distance: '500px'
+      });
+      sr.reveal('.doctor-middle', {
+        duration: 2000,
+        origin: 'bottom',
+        distance: '500px'
+      });
+      sr.reveal('.doctor-right', {
+        duration: 2000,
+        origin: 'right',
+        distance: '500px'
+      });
+      </script>
+
   </body>
 </html>

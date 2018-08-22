@@ -1,3 +1,4 @@
+
 @media(max-width:1200px)
 {
 
@@ -12,39 +13,86 @@
 
 }
 
-// @media(max-width: 769px) {
-//
-//   .navbar-collapse {
-//     display: block;
-//   }
-//
-//     margin-left: -200px !important;
-//     margin-top: -92px !important;
-//   }
-//
-//   .main-content {
-//     margin-top: -100px !important;
-//   }
-//
-//   .section-about {
-//
-//     padding-bottom: 75px !important;
-//     margin: 0 auto !important;
-//
-//
-//   h1 {
-//     width: 100% !important;
-//
-//   }
-//
-// }
 
-@media(max-width: 800px)
+@media(max-width: 1462px) {
+
+  .section-doctors .doctors {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.section-about .border-between {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+.section-staff {
+  height: 120vh !important;
+  .arrow4 {
+    margin: 20rem auto !important;
+  }
+}
+}
+
+@media(max-width:1100px) {
+  .arrow4 {
+    display: none !important;
+  }
+  .arrow2 {
+    display: none !important;
+  }
+}
+@media(max-width:1026px) {
+  font-size: 4rem;
+}
+
+@media(max-width: 856px) {
+  .eyeSmart img  {
+      height:150px !important;
+      width: 150px !important;
+      margin-top: -30px !important;
+    }
+
+  .ojoListo img {
+      height:150px !important;
+      width: 150px !important;
+      margin-top: -30px !important;
+
+    }
+}
+
+@media(max-height:840px) {
+  .arrow {
+    margin: -275px auto !important;
+  }
+}
+// Small Screens //
+@media(max-width: 769px)
  {
 
    body {
    text-align: center;
-   // overflow-x: hidden !important;
+
+}
+
+.section-contact
+{.contact form {
+   display: block !important;
+ }
+
+ .contact-details {
+   padding-top: 0 !important;
+   padding-bottom: 50px !important;
+ }
+ }
+
+
+.eyeSmart {
+  padding: 2.5rem;
+}
+
+.ojoListo {
+  padding: 2.5rem;
 }
 
   // NAVBAR NAVBAR NAVBAR NAVBABKLSA;JFDKLDAS;JFKLSA;DJF //
@@ -55,11 +103,7 @@
     .mobile-title {
       display:block;
       margin: 0 auto;
-      font-size: 40px;
-    }
-
-    img {
-      display: none;
+      font-size: 1.5rem;
     }
 
     a:not([href]):not([tabindex]) {
@@ -70,26 +114,16 @@
   ul.navbar-nav {
 
       background-color: #ebffff !important;
-      padding-bottom: 100px;
+      padding-bottom: 3.5rem;
+      border-radius: 10px;
 
       .logo {
         display: none;
-
       }
-
   }
-
-
-
   .nav-item {
     text-align: margin-left;
 
-      // a {
-      //   font-size: 30px!important;
-      //   color: #000;
-      //
-      //
-      // }
 
       h1 {
         line-height: 2;
@@ -128,14 +162,7 @@ border-color: $primary-color !important;
 
 // CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL //
 .carousel {
-    // background-image: url(../img/showcase1.jpg);
-    // background-size: cover;
-    // background-position: center;
-    // height: 100vh;
-    // width: 50%;
-    // // background-attachment: fixed;
-    // top: 0;
-    // left: 0;
+
     visibility: hidden !important;
 
   }
@@ -148,6 +175,7 @@ border-color: $primary-color !important;
   .section-main {
 
       background-image: url('../img/mobileHome.jpg');
+      height: auto !important;
 
     h1 {
       font-size: 4em !important;
@@ -176,7 +204,7 @@ border-color: $primary-color !important;
 }
 
   footer {
-    height: 850px !important;
+    height: auto !important;
     bottom: 0 !important;
 
     h2 {
@@ -199,25 +227,36 @@ border-color: $primary-color !important;
 
   // ABOUT SECTION ABOUT SECTION ABOUT SECTION //
   .section-about {
-    height: 2600px !important;
+    height: auto !important;
   .border-between {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
   .about-header {
     width: 100% !important;
-    margin: 20% auto !important;
+    margin-top: 20% !important;
   }
   .arrow2 {
         display: none !important;
   }
-
+  .eyeSmart img  {
+      height:200px !important;
+      width: 200px !important;
+      margin-top: -30px !important;
+    }
+  .ojoListo img {
+      height:200px !important;
+      width: 200px !important;
+      margin-top: -30px !important;
+    }
 }
 
 
 // DOCTORS DOCTORS DOCTORS DOCTORS //
   .section-doctors {
-    height: 2300px !important;
+    height: auto !important;
+    padding-bottom: 100px !important;
+
 
     .header {
       height: 100px !important;
@@ -242,7 +281,7 @@ border-color: $primary-color !important;
   // STAFF STAFF STAFF STAFF STAFF STAFF //
 
 .section-staff {
-  height: 1200px !important;
+  height: auto !important;
 
  .header h1 {
    margin: 20% auto !important;
@@ -258,17 +297,18 @@ border-color: $primary-color !important;
   }
 
   img {
-    height:  350px !important;
+    width: auto !important;
+    height: auto !important;
   }
 }
 
   // LOCATION LOCATION LOCATION LOCATION LOCATION //
 
   .section-locations {
-    height: 3650px !important;
+    height: auto !important;
 
     .box {
-      height: 1000px !important;
+      // height: 1000px !important;
     }
     .oakland {
       // text-align: center !important;
@@ -281,10 +321,8 @@ border-color: $primary-color !important;
 // FAQ FAQ FAQ FAQ FAQ FAQ FAQ//
 
 .section-faq {
-  height: 1500px !important;
-  .vl {
-    display:none;
-  }
+  height: auto !important;
+
 
   h1 {
     width:  100% !important;
@@ -311,105 +349,46 @@ border-color: $primary-color !important;
   .media {
     margin-top: 75px !important;
   }
+ }
+
+ .section-tanaka .bio h3{
+   width: 100% !important;
+ }
+
+ .section-tanaka .bio {
+   width: 100% !important;
+ }
 }
 
+// extra small devices //
 
+@media(max-width: 576px) {
+  .section-contact {
 
+    .contact-details {
+
+  margin:0 !important;
+  padding: 0 !important;
+
+     }
+   }
+
+   .section-main {
+     h1.content {
+       margin-top: 9.5rem !important;
+       span {
+      font-size: 3.25rem;
+
+    }
+   }
+ }
 }
 
-@media(max-width: 2100px) {
-
-  body {
-    overflow-x: hidden;
+@media(max-width:411px) {
+  .navbar img {
+    display: none;
   }
-
-
-
-  ul.navbar-nav {
-      background-color: #ebffff !important;
-      // padding-bottom: 100px;
-    }
-
-  .section-main {
-    h1 {
-      font-size: 4em !important;
-      line-height: 2 !important;
-    }
-
-    .arrow {
-      display: none;
-    }
-    .d-block {
-      position: absolute;
-      height: 1500px;
-
-    }
-
-    .arrow {
-      margin-top: 450px;
-    }
-}
-
-.section-doctors {
-}
-}
-
-// 2700 Media Size //
-@include mediaMd {
-
-  .section-tanaka {
-    grid-template-areas:
-      'bioImg'
-      'bio'
-      'bio'
-      'footer' !important;
-      grid-template-columns: 1fr !important;
-      background: none !important;
-      margin-top: 1rem !important;
-      text-align: center;
-      height: 2200px !important;
-      margin-left: 2rem !important;
-      margin-right: 2rem !important;
-      overflow:hidden;
-
-      // .load-hidden {
-      //   display: hidden;
-      // }
-
-      .bio {
-        margin-top: 1rem !important;
-        padding: 0 20px;
-        text-align: center;
-
-        h3, button, h4, a {
-          text-align: center !important;
-          margin: 0 auto;
-          display: block;
-          padding: 15px 0 !important;
-          text-decoration: none !important;
-        }
-      }
-
-      img {
-        height: 600px !important;
-      }
-
-
-
-
+  .navbar .mobile-title {
+    font-size: 1.25rem;
   }
-
-  footer {
-    bottom: 0 !important;
-    grid-area: footer;
-  }
-}
-
-
-@include mediaMd {
-  .bio {
-    margin-top: 10rem !important;
-
-    }
-
 }

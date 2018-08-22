@@ -1,5 +1,5 @@
 footer {
-  height: 450px;
+  // height: 450px;
   background-color: #000;
   color: #fff !important;
   line-height: 1.6 !important;
@@ -10,9 +10,10 @@ footer {
 
 
   .footer-content {
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 100px;
+    // padding-left: 200px;
+    // padding-right: 200px;
+    // padding-top: 100px;
+    padding: 3rem 5rem;
   }
 
   img {
@@ -22,7 +23,7 @@ footer {
   h2 {
     color: white;
     text-align: center;
-    line-height: .1;
+    // line-height: .1;
   }
 
   h4 {
@@ -30,13 +31,13 @@ footer {
     text-align: center;
     line-height: 1.5;
     margin-top: 12px;
-    font-size: 30px;
+    font-size: 1.5rem;
   }
 
   .fancy {
     font-family: 'Source Serif Pro', serif;
     line-height: 10% !important;
-    font-size: 40px;
+    font-size: 2rem;
   }
 
   ul {
@@ -46,7 +47,7 @@ footer {
     display: block;
     margin-top: 15px;
     line-height: .6;
-    font-size: 30px;
+    font-size: 1.5rem;
   }
 
    li {
