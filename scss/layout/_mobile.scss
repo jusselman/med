@@ -67,12 +67,21 @@
   }
 }
 // Small Screens //
-@media(max-width: 769px)
- {
+@media(max-width: 769px) {
+
+  body {
+    overflow-x:hidden;
+  }
+  .navbar {
+    height: 60px;
+  }
 
    body {
    text-align: center;
+    }
 
+.qanda {
+  width: 95% !important;
 }
 
 .section-contact

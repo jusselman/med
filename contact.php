@@ -8,7 +8,7 @@ if( isset($_POST['name']) && isset($_POST['lastName']) && isset($_POST['phoneNum
 	$to = "irene711vanness@gmail.com";
 	$from = $emailAddress;
 	$subject = 'Schedule Inquiry';
-	$message = '<b>Name:</b> '.$name.' <b>LastName:</b> '.$lastName.' <br><b>Phone:</b> '.$phoneNumber' <b>Email:</b> '.$emailAddress.' <p>'.$message.'</p>';
+	$message = "<b>Name:</b> '.$name.' <b>LastName:</b> '.$lastName.' <br><b>Phone:</b> '.$phoneNumber' <b>Email:</b> '.$emailAddress.' <p>'.$message.'</p>";
 	$headers = "From: $from\n";
 	$headers .= "MIME-Version: 1.0\n";
 	$headers .= "Content-type: text/html; charset=iso-8859-1\n";

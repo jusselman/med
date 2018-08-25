@@ -1,3 +1,12 @@
+// navbar //
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 50) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+});
+
 // Email submit functionality //
 function _(id){ return document.getElementById(id); }
 function submitForm(){
@@ -9,15 +18,12 @@ function submitForm(){
 	formdata.append( "phoneNumber", _("phoneNumber").value );
   formdata.append( "emailAddress", _("emailAddress").value );
   formdata.append( "message", _("message").value );
-
-
-	formdata.append( "message", _("message").value );
 	var ajax = new XMLHttpRequest();
-	ajax.open( "POST", "parser.php" );
+	ajax.open( "POST", "contact.php" );
 	ajax.onreadystatechange = function() {
 		if(ajax.readyState == 4 && ajax.status == 200) {
 			if(ajax.responseText == "success"){
-				_("my_form").innerHTML = '<h2>Thank you '+_("name").value+', your message has been sent.</h2>';
+				_("my_form").innerHTML = '<h2>Thank you '+_("name").value +', your message has been sent.</h2>';
 			} else {
 				_("status").innerHTML = ajax.responseText;
 				_("button").disabled = false;
@@ -26,29 +32,6 @@ function submitForm(){
 	}
 	ajax.send( formdata );
 }
-
-
-// $(document).ready(function() {
-//
-//   $('#submit').click(function() {
-//     var name = $('#name').val();
-//     var lastName = $('#lastName').val();
-//     var phoneNumber = $('#phoneNumber').val();
-//     var email = $('#email').val();
-//     var message = $('#message').val();
-//
-//     var varData = 'name=' + name + '&lastName=' + lastName + '&phoneNumber=' + phoneNumber + '&email=' + email + '&message=' + message;
-//
-//     $.ajax({
-//       type: "POST",
-//       url: "php.php",
-//       data: varData,
-//       success: function() {
-//         alert('Success');
-//       }
-//     });
-//   });
-// });
 
 // // TITLE FADING IN AND OUT //
 var faded_i = 0;
@@ -174,7 +157,7 @@ $(document).ready(function() {
 // Scroll Reveal //var reveal = function myFunction(x) {
 
 // media query event handler
-// if (window.innerWidth > 2100) {
+if (window.innerWidth > 769) {
  window.sr = ScrollReveal();
   sr.reveal('.info', {
     duration: 2000,
@@ -201,3 +184,4 @@ $(document).ready(function() {
     origin: 'right',
     distance: '500px'
   });
+}

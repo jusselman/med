@@ -9,7 +9,7 @@
   word-spacing: 1rem;
   text-align: center;
   background: #ebffff;
-  padding: 2.5rem;
+  // padding: 2.5rem;
   border-radius: 10px;
 
 }
@@ -18,7 +18,7 @@
   // padding-bottom: 25px;;
   // margin-right: 75px;
   // @include add-border(1px, #e7e7e7, 'right-left');
-  height: 125px;
+  height: 85px;
   background: rgb(235, 255, 255);
   // margin-bottom: 30px;
   // position: sticky;
@@ -86,6 +86,21 @@ a:hover:before {
   // animation-fill-mode: forwards;
 
 }
+
+nav.navbar.shrink {
+	min-height: 35px;
+  .navbar-brand {font-size: 25px;}
+  a {
+    font-size: 15px;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+  }
+  .navbar-toggle {
+    margin: 8px 15px 8px 0;
+    padding: 4px 5px;
+  }
+}
+
 
 @keyframes animate {
   0%
