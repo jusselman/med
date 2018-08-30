@@ -103,7 +103,7 @@
 // FAQ SECTION FAQ SECTION FAQ SECTION //
 
 .section-faq {
-  height: 120vh;
+  height: 100vh;
   background: #fff;
   position: relative;
   color: #000;
@@ -120,19 +120,21 @@
     position: absolute;
     margin: 30rem auto;
     animation: bounce 2s ease infinite;
-
+}
+    .questions {
     a {
       text-decoration: none !important;
       color: #000 !important;
-      font-size: 80px;
+      font-size: 1.5rem;
     }
-  }
+
 
   a:not([href]) {
     color: #000 !important;
     text-decoration: none;
     display: block;
   }
+}
 
   .faq {
     padding-top: 5%;
@@ -254,7 +256,7 @@
 
     h1 {
     text-align: center;
-    margin: 5% auto;
+    margin: 1rem auto;
     border-bottom: 3px solid $bg;
     width: 20%;
     display: block;

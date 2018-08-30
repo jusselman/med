@@ -1,10 +1,10 @@
-// navbar //
-$(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-    $('nav').addClass('shrink');
-  } else {
-    $('nav').removeClass('shrink');
-  }
+// trying to make smooth scroll //
+$(document).ready(function(){
+    var deviceAgent = navigator.userAgent.toLowerCase();
+    var agentID = deviceAgent.match(/(iPad|iPhone|iPod)/i);
+    if (agentID) {
+       $('body').css('-webkit-overflow-scrolling', 'touch');
+    }
 });
 
 // Email submit functionality //
