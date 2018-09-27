@@ -1,4 +1,5 @@
-// trying to make smooth scroll //
+
+// smooth scroll on iphone //
 $(document).ready(function(){
     var deviceAgent = navigator.userAgent.toLowerCase();
     var agentID = deviceAgent.match(/(iPad|iPhone|iPod)/i);
@@ -11,9 +12,9 @@ $(document).ready(function(){
 function _(id){ return document.getElementById(id); }
 function submitForm(){
 	_("button").disabled = true;
-	_("status").innerHTML = 'please wait ...';
+	_("status").innerHTML = 'please wait...';
 	var formdata = new FormData();
-	formdata.append( "name", _("name").value );
+	formdata.append( "firstName", _("firstName").value );
   formdata.append( "lastName", _("lastName").value );
 	formdata.append( "phoneNumber", _("phoneNumber").value );
   formdata.append( "emailAddress", _("emailAddress").value );
@@ -32,6 +33,16 @@ function submitForm(){
 	}
 	ajax.send( formdata );
 }
+
+// send modal //
+var sendModal = document.getElementById('sendModal');
+  function showModal() {
+    sendModal.style.display = "block";
+  }
+
+
+
+
 
 // // TITLE FADING IN AND OUT //
 var faded_i = 0;
@@ -157,7 +168,7 @@ $(document).ready(function() {
 // Scroll Reveal //var reveal = function myFunction(x) {
 
 // media query event handler
-if (window.innerWidth > 769) {
+if (window.innerWidth > 769 && window.innerHeight > 640) {
  window.sr = ScrollReveal();
   sr.reveal('.info', {
     duration: 2000,

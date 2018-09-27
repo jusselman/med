@@ -250,18 +250,24 @@
   position: relative;
   color: #000;
 
-  .header {
+
+
+
+   .header {
 
     position: relative;
 
     h1 {
     text-align: center;
-    margin: 1rem auto;
+    margin: 6rem auto;
     border-bottom: 3px solid $bg;
     width: 20%;
     display: block;
+
   }
 }
+
+
 
 .arrow3 {
 
@@ -451,6 +457,31 @@ h3 {
 
 // CONTACT US SECTION //
 .section-contact {
+
+  // span#status {
+  //   font-size: 2rem;
+  //   margin: 0 auto;
+  //   width: 100%;
+  //   display: block;
+  //   position: absolute;
+  // }
+
+  // .send-modal {
+  //   top: 50%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   height: 30%;
+  //   width: 30%;
+  //   background: white;
+  //   display: none;
+  // }
+
+  .send-result {
+    font-size: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+  }
 
 .bg-design {
   position: relative;

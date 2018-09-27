@@ -76,16 +76,17 @@
     height: 60px;
   }
 
-   body {
-   text-align: center;
-    }
+   // body {
+   // text-align: center;
+   //  }
 
 .qanda {
   width: 95% !important;
 }
 
 .section-contact
-{.contact form {
+{
+  .contact form {
    display: block !important;
  }
 
@@ -93,6 +94,20 @@
    padding-top: 0 !important;
    padding-bottom: 50px !important;
  }
+ }
+
+ .section-doctors {
+   h1.info {
+     margin: 0 !important;
+   }
+ h2 {
+     margin-top: 0 !important;
+     margin-bottom: 50px !important;
+   }
+ }
+
+ .section-tanaka .bioImg img {
+   height: 15rem !important;
  }
 
 
@@ -361,11 +376,11 @@ border-color: $primary-color !important;
  }
 
  .section-tanaka .bio h3{
-   width: 100% !important;
+   width: 80% !important;
  }
 
  .section-tanaka .bio {
-   width: 100% !important;
+   width: 90% !important;
  }
 }
 
