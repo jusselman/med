@@ -48,7 +48,8 @@ var sendModal = document.getElementById('sendModal');
 var faded_i = 0;
 var faded_array = ["Glaucoma Specialists", "青光眼專科醫生", "Специалисты по глаукоме", "Especialistas en Glaucoma"];
 var faded_elem;
-faded_elem = document.getElementById('faded'); fadedSlide();
+faded_elem = document.getElementById('faded');
+fadedSlide();
 function fadedNext() {
   faded_i++;
   faded_elem.style.opacity = 0;

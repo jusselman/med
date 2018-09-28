@@ -842,20 +842,40 @@ html.sr .load-hidden {
   }
   /* line 401, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-main h1.content {
-    margin-top: 9.5rem !important;
+    margin-top: 6rem !important;
   }
   /* line 403, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-main h1.content span {
-    font-size: 3.25rem;
+    font-size: 2.5rem;
+  }
+  /* line 407, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  .section-main h1.content h2 {
+    font-size: 2rem;
+  }
+  /* line 414, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  .section-about .about-header {
+    margin-top: 10% !important;
+  }
+  /* line 417, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  .section-about .aao {
+    padding: 0 !important;
+  }
+  /* line 422, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  .section-doctors {
+    padding-bottom: 25px !important;
+  }
+  /* line 425, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  .section-doctors .header {
+    padding-top: 25px !important;
   }
 }
 
 @media (max-width: 411px) {
-  /* line 412, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 432, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .navbar img {
     display: none;
   }
-  /* line 415, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 435, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .navbar .mobile-title {
     font-size: 1.25rem;
   }
@@ -1811,7 +1831,6 @@ body,
 /* line 527, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .box {
   max-width: 1170px;
-  min-width: 350px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;

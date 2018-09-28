@@ -399,13 +399,33 @@ border-color: $primary-color !important;
 
    .section-main {
      h1.content {
-       margin-top: 9.5rem !important;
+       margin-top: 6rem !important;
        span {
-      font-size: 3.25rem;
+      font-size: 2.5rem;
 
+    }
+    h2 {
+      font-size: 2rem;
     }
    }
  }
+
+ .section-about {
+   .about-header {
+     margin-top: 10% !important;
+   }
+   .aao {
+     padding: 0 !important;
+   }
+ }
+
+ .section-doctors {
+   padding-bottom: 25px !important;
+
+   .header {
+   padding-top: 25px !important;
+ }
+}
 }
 
 @media(max-width:411px) {
