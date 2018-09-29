@@ -34,9 +34,20 @@ html.sr .load-hidden {
   text-align: center;
   margin:0 auto;
 
+  .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
   h2 {
     padding: 1rem;
   }
+
+
 
 
     .bioImg {
@@ -109,7 +120,7 @@ html.sr .load-hidden {
 
 /* line 43, C:/Users/Josue/Desktop/gridlock/scss/base/_base.scss */
  .bio h3 {
-  font-size: 2.5rem;
+  font-size: 1.75rem;
   border-bottom: 3px solid $primary-color;
   width: 40%;
   margin: 0 auto;
@@ -144,7 +155,9 @@ footer {
 }
 
 h4 {
-  padding: 1rem;
+  padding-top: 25px;
+  font-size: 1.25rem;
+
 }
 /* line 63, C:/Users/Josue/Desktop/gridlock/scss/base/_base.scss */
 .doctor-footer h3 {

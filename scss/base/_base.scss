@@ -12,12 +12,13 @@ body, html {
   margin:0 !important;
   // overflow-x:hidden;
   position: relative;
+  box-sizing: border-box;
   // margin-right:-500px !important;
 
 }
 
 html {
-  overflow-x: hidden; 
+  overflow-x: hidden;
 }
 
 .qanda {

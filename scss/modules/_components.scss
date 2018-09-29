@@ -11,8 +11,15 @@
 		}
 
 		img {
+			position:fixed;
+			// padding-bottom:0;
+			background:$dark-color;
+			background-attachment: fixed;
+	    background-size: cover;
+			background-position: center;
+			height: 100%;
 			width: 100vw;
-			height: 100vh;
+
 		}
 	}
 }
@@ -38,10 +45,10 @@ body,
 	  left: 0;
 		z-index: 0;
 		position:fixed;
-		padding-bottom:0;
+		// padding-bottom:0;
 		background:$dark-color;
-		background-attachment: fixed;
-    background-size: cover;
+		// background-attachment: fixed;
+    // background-size: cover;
 
 
 
