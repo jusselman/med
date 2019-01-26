@@ -136,8 +136,8 @@
 
   // NAVBAR NAVBAR NAVBAR NAVBABKLSA;JFDKLDAS;JFKLSA;DJF //
   .navbar {
-    border-left: 1px solid $primary-color;
-    border-right: 1px solid $primary-color;
+    // border-left: 1px solid $primary-color;
+    // border-right: 1px solid $primary-color;
 
     .mobile-title {
       display:block;
@@ -471,3 +471,13 @@ border-color: $primary-color !important;
     font-size: 1.25rem;
   }
 }
+
+@media(max-height:450px) {
+  section, footer, nav {
+    display: none !important;
+  }
+
+  .section-landscape {
+    display: block !important;
+  }
+    }

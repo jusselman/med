@@ -1,5 +1,3 @@
 User-agent: *
-Crawl-delay: 30
 
 Sitemap: https://glaucomaspecialistsofsanfrancisco.com/sitemap.xml
-

@@ -1,4 +1,3 @@
-
 // location section //
 .section-locations {
   background-color: #fff;
@@ -19,7 +18,7 @@
     width: 300px;
   }
 
-.locations-banner {
+  .locations-banner {
     height: auto;
     width: auto !important;
     position: relative;
@@ -43,7 +42,7 @@
     margin-right: auto;
     margin-top: 20px;
     padding: 1em;
-    background: rgba(161, 240, 244, .3);
+    background: rgba(161, 240, 244, 0.3);
     display: flex;
     flex-flow: row wrap;
     flex: 0 1 100%;
@@ -54,18 +53,17 @@
     margin-top: 20%;
   }
 
-  h1{
-    text-align:center;
+  h1 {
+    text-align: center;
     z-index: 99;
-    margin:0 auto;
+    margin: 0 auto;
     width: 100%;
     display: block;
     position: relative;
     color: #000;
-    }
-  h2
-  {
-    text-align:center;
+  }
+  h2 {
+    text-align: center;
     font-size: 1.5rem;
     z-index: 99;
     width: 100%;
@@ -74,7 +72,8 @@
     color: #000;
   }
 
-  h2, h3 {
+  h2,
+  h3 {
     text-align: center;
   }
 
@@ -120,21 +119,20 @@
     position: absolute;
     margin: 30rem auto;
     animation: bounce 2s ease infinite;
-}
-    .questions {
+  }
+  .questions {
     a {
       text-decoration: none !important;
       color: #000 !important;
       font-size: 1.5rem;
     }
 
-
-  a:not([href]) {
-    color: #000 !important;
-    text-decoration: none;
-    display: block;
+    a:not([href]) {
+      color: #000 !important;
+      text-decoration: none;
+      display: block;
+    }
   }
-}
 
   .faq {
     padding-top: 5%;
@@ -154,21 +152,21 @@
   }
 
   a {
-    color:#0070cd !important;
+    color: #0070cd !important;
     text-decoration: none;
     font-size: 1.5rem;
   }
 
-.whiteBox {
-  height: 400px;
-  width: 50%;
-  background: #fff;
-  transition: 2s;
-  padding-right: 0 !important;
-}
+  .whiteBox {
+    height: 400px;
+    width: 50%;
+    background: #fff;
+    transition: 2s;
+    padding-right: 0 !important;
+  }
 
- .twist {
-   position: relative;
+  .twist {
+    position: relative;
     top: 10px;
     font-size: 50px;
     transition-property: all;
@@ -177,20 +175,21 @@
     transition-fill-mode: forwards;
     transform-origin: center;
     transform: rotate(0);
-    width:27px;
-    display:inline-block;
+    width: 27px;
+    display: inline-block;
   }
 
-.twist:hover {
+  .twist:hover {
     transform: rotate(360deg);
   }
 
-  h1, h4 {
+  h1,
+  h4 {
     width: 40%;
     border-bottom: 2px solid $bg;
     margin: 0 auto;
-    display:block;
-    }
+    display: block;
+  }
 
   .media-wrapper {
     h1 {
@@ -207,31 +206,30 @@
   }
 
   .questions {
-    li
- {
-    list-style-type:none;
-    padding-top:50px;
-    text-align: right;
+    li {
+      list-style-type: none;
+      padding-top: 50px;
+      text-align: right;
     }
   }
 
   .answers {
-      padding-left: 0 !important;
-      transition: 1s;
+    padding-left: 0 !important;
+    transition: 1s;
 
     li {
       text-align: left;
       list-style-type: none;
-      padding-top:50px;
-    font-size: 35px;
-    right: 0;
-    // padding: 40px;
+      padding-top: 50px;
+      font-size: 35px;
+      right: 0;
+      // padding: 40px;
+    }
   }
-}
 
   .qaextensive {
-      text-align: center;
-      width: 100%;
+    text-align: center;
+    width: 100%;
   }
 
   iframe {
@@ -243,90 +241,85 @@
 }
 
 // DOCTOR DOCTOR DOCTOR DOCTOR DOCTORS //
-.section-doctors{
-
+.section-doctors {
   height: 100vh;
-  background: #ebffff;
+  // background: #ebffff;
+  background-image: linear-gradient(to right, #ebffff, #80ffff);
   position: relative;
   color: #000;
 
-
-
-
-   .header {
-
+  .header {
     position: relative;
 
     h1 {
-    text-align: center;
-    margin: 6rem auto;
-    border-bottom: 3px solid $bg;
-    width: 20%;
+      text-align: center;
+      margin: 6rem auto;
+      border-bottom: 3px solid $bg;
+      width: 20%;
+      display: block;
+    }
+  }
+
+  .arrow3 {
+    font-size: 80px;
+    width: 100%;
+    transform: rotate(180deg);
     display: block;
+    text-align: center;
+    position: absolute;
+    margin: 10% auto;
+    animation: bounce 2s ease infinite;
 
+    a {
+      text-decoration: none !important;
+      color: #000 !important;
+    }
   }
-}
 
-
-
-.arrow3 {
-
-  font-size: 80px;
-  width: 100%;
-  transform: rotate(180deg);
-  display: block;
-  text-align: center;
-  position: absolute;
-  margin: 10% auto;
-  animation: bounce 2s ease infinite;
-
-  a {
-    text-decoration: none !important;
-    color: #000 !important;
+  @keyframes bounce {
+    0% {
+      top: 600px;
+    }
+    50% {
+      top: 620px;
+    }
+    100% {
+      top: 600px;
+    }
   }
-}
-
-
-
-@keyframes bounce {
-  0%{top:600px}
-  50%{top:620px}
-  100%{top:600px}
-}
 
   .doctors {
     margin-left: 350px;
     margin-right: 350px;
-
   }
 
   .headshot {
     border: 12px solid $bg;
-    }
+  }
 
   a {
     color: #fff !important;
     text-decoration: none;
   }
 
-    h2 {
-      text-align: center;
-      font-size: 2.5rem;
-      color: #000;
-      margin-top: 35px;
-      border-bottom: 2px solid $bg;
-      width: 90%;
-      margin-left: auto;
-      margin-right: auto;
-         }
+  h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #000;
+    margin-top: 35px;
+    border-bottom: 2px solid $bg;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    h3 {
-      text-align: center;
-      font-size: 35px;
-      color: #000;
-          }
+  h3 {
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+  }
 
-    .doctorPortal {
+  .doctorPortal {
     width: 850px;
     height: 500px;
     margin: 3em auto;
@@ -334,13 +327,13 @@
     border-radius: 1em;
   }
 
-    img {
-      width: 17rem;
-      height: 17rem;
-      border-radius: 100%;
-      margin: 0 auto;
-      display: block;
-    }
+  img {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 100%;
+    margin: 0 auto;
+    display: block;
+  }
 }
 
 // OUR STAFF OUR STAFF OUR STAFF OUR STAFF //
@@ -352,8 +345,6 @@
   position: relative;
 
   .header {
-
-
     h1 {
       text-align: center;
       margin-top: 100px;
@@ -363,19 +354,18 @@
       border-bottom: 3px solid $bg;
       width: 20%;
       display: block;
+    }
   }
-}
 
-h3 {
-  text-align: center;
-  font-size: 1.5rem;
-  color: #000;
-  width: 50%;
-  margin: 35px auto;
-      }
+  h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #000;
+    width: 50%;
+    margin: 35px auto;
+  }
 
   img {
-
     height: 25rem;
     margin-left: auto;
     margin-right: auto;
@@ -401,11 +391,16 @@ h3 {
   }
 
   @keyframes bounce {
-    0%{top:600px}
-    50%{top:620px}
-    100%{top:600px}
+    0% {
+      top: 600px;
+    }
+    50% {
+      top: 620px;
+    }
+    100% {
+      top: 600px;
+    }
   }
-
 }
 
 // MEDIA SECTION MEDIA SECTION MEDIA SECTION //
@@ -424,17 +419,16 @@ h3 {
     text-shadow: 2px 2px 4px #000000;
   }
 
-
   img {
     width: 900px;
     height: 800px;
     margin: 5.5em auto;
     display: block;
-    position:absolute;
+    position: absolute;
   }
 
   .media-link {
-    color: rgb(0,107,182);
+    color: rgb(0, 107, 182);
   }
 
   .fa-arrow-right {
@@ -446,18 +440,23 @@ h3 {
     position: absolute;
     margin: 0 auto;
     animation: bounce2 2s ease infinite;
-    }
+  }
 
   @keyframes bounce2 {
-    0%{left:0px}
-    50%{left:20px}
-    100%{left:0px}
+    0% {
+      left: 0px;
+    }
+    50% {
+      left: 20px;
+    }
+    100% {
+      left: 0px;
+    }
   }
 }
 
 // CONTACT US SECTION //
 .section-contact {
-
   // span#status {
   //   font-size: 2rem;
   //   margin: 0 auto;
@@ -483,155 +482,142 @@ h3 {
     display: block;
   }
 
-.bg-design {
-  position: relative;
-}
-
-
-
-h1.brand{
-  padding-bottom: 40px;
-}
-
-.brand{
-
-h1{
-  text-align:center;
-  // font-size: 80px;
-  z-index: 99;
-  margin:2em auto;
-  width: 100%;
-  display: block;
-  position: absolute;
-  color: #fff;
-  padding-bottom: 50px;
-}
-h2
-{
-  text-align:center;
-  font-size: 70px;
-  z-index: 99;
-  margin:3.25em auto;
-  width: 100%;
-  display: block;
-  position: absolute;
-  color: #fff;
-}
-}
-
-.contact-details {
-  padding: 100px 50px;
-  background: #fff;
-}
-
-.box {
-  max-width: 1170px;
-  // min-width: 350px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  padding: 1em;
-  // box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
-}
-
-.contact-right {
-  padding-top:100px;
-  background: #fff;
-  text-align: center;
-
-  p {
-    font-size: 1.5rem;
-    padding-top: 35px;
-  }
-  .diagram {
-    height: 650px;
-    margin-top: 50px;
-
+  .bg-design {
+    position: relative;
   }
 
-}
+  h1.brand {
+    padding-bottom: 40px;
+  }
+
+  .brand {
+    h1 {
+      text-align: center;
+      // font-size: 80px;
+      z-index: 99;
+      margin: 2em auto;
+      width: 100%;
+      display: block;
+      position: absolute;
+      color: #fff;
+      padding-bottom: 50px;
+    }
+    h2 {
+      text-align: center;
+      font-size: 70px;
+      z-index: 99;
+      margin: 3.25em auto;
+      width: 100%;
+      display: block;
+      position: absolute;
+      color: #fff;
+    }
+  }
+
+  .contact-details {
+    padding: 100px 50px;
+    background: #fff;
+  }
+
+  .box {
+    max-width: 1170px;
+    // min-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 1em;
+    // box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+  }
+
+  .contact-right {
+    padding-top: 100px;
+    background: #fff;
+    text-align: center;
+
+    p {
+      font-size: 1.5rem;
+      padding-top: 35px;
+    }
+    .diagram {
+      height: 650px;
+      margin-top: 50px;
+    }
+  }
 }
 
 // The section on why to choose GS Specialists//
 .section-about {
   background-color: #fff;
 
-  position:relative;
+  position: relative;
   height: auto;
   padding-bottom: 50px;
 
-.border-between {
-  margin-left: 350px;
-  margin-right: 350px;
-}
-
-.aao {
-  padding: 50px 0 100px 0;
-}
-
-.eyeSmart {
-  // margin: 40px auto;
-  transition: 1000;
-
-
-  img {
-
-    opacity: 1;
-    transition: .25s;
-
-
+  .border-between {
+    margin-left: 350px;
+    margin-right: 350px;
   }
 
-  img:hover {
-    opacity: .75;
-    box-shadow: 0 1px 2px 1px #000;
-        position: relative;
-        transform: translateY(-10px);
-  }
-}
-
-.ojoListo {
-  // margin: 40px auto;
-  transition: 1000;
-
-
-  img {
-
-    border-radius: 100%;
-    opacity: 1;
-    transition: .25s;
-
-
+  .aao {
+    padding: 50px 0 100px 0;
   }
 
-  img:hover {
-    opacity: .75;
-    box-shadow: 0 1px 2px 1px #000;
-        position: relative;
-        transform: translateY(-10px);
+  .eyeSmart {
+    // margin: 40px auto;
+    transition: 1000;
+
+    img {
+      opacity: 1;
+      transition: 0.25s;
+    }
+
+    img:hover {
+      opacity: 0.75;
+      box-shadow: 0 1px 2px 1px #000;
+      position: relative;
+      transform: translateY(-10px);
+    }
   }
-}
 
-h1, h4, h2 {
-  text-align: center !important;
-}
+  .ojoListo {
+    // margin: 40px auto;
+    transition: 1000;
 
- h3, p, {
-  margin: 0 auto;
-  width: 70%;
-  display: block;
-  text-align: center;
+    img {
+      border-radius: 100%;
+      opacity: 1;
+      transition: 0.25s;
+    }
 
+    img:hover {
+      opacity: 0.75;
+      box-shadow: 0 1px 2px 1px #000;
+      position: relative;
+      transform: translateY(-10px);
+    }
+  }
 
-}
+  h1,
+  h4,
+  h2 {
+    text-align: center !important;
+  }
 
- .fas {
-   color: $secondary-color;
-   margin: 20px auto;
-   display: block;
-   text-align: center;
-   padding-top: 1rem;
- }
+  h3,
+  p {
+    margin: 0 auto;
+    width: 70%;
+    display: block;
+    text-align: center;
+  }
+
+  .fas {
+    color: $secondary-color;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    padding-top: 1rem;
+  }
 
   .about-header {
     // padding: 75px;
@@ -640,35 +626,45 @@ h1, h4, h2 {
     border-bottom: 3px solid $primary-color;
     margin: 0 auto;
     padding-top: 5%;
+  }
 
-}
+  .arrow2 {
+    color: #0070cd;
+    font-size: 80px;
+    /* margin: 0 auto; */
+    width: 100%;
+    transform: rotate(180deg);
+    display: block;
+    text-align: center;
+    position: absolute;
+    margin: 15rem auto;
+    animation: bounce 2s ease infinite;
+    // transition: font-size 1s;
+    a {
+      text-decoration: none !important;
+    }
+  }
 
-.arrow2 {
-  color: #0070cd;
-  font-size: 80px;
-  /* margin: 0 auto; */
-  width: 100%;
-  transform: rotate(180deg);
-  display: block;
-  text-align: center;
-  position: absolute;
-  margin: 15rem auto;
-  animation: bounce 2s ease infinite;
-  // transition: font-size 1s;
-  a {
-    text-decoration: none !important;
+  @keyframes bounce {
+    0% {
+      top: 600px;
+    }
+    50% {
+      top: 620px;
+    }
+    100% {
+      top: 600px;
+    }
   }
 }
 
+.section-landscape {
+  height: 100vh;
 
-
-@keyframes bounce {
-  0%{top:600px}
-  50%{top:620px}
-  100%{top:600px}
-}
-
-
+  .translate {
+    height: 250px;
+    width: 250px;
+  }
 }
 
 // Modal Section for Doctors' resumes //

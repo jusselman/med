@@ -67,7 +67,7 @@ function fadedSlide() {
 
 // FADE THE OF SAN FRANCISCO //
 var faded_SF = 0;
-var faded_arraySF = ["of San Francisco", "舊金山", "Сан-Франциско", "de San Francisco"];
+var faded_arraySF = ["of San Francisco", "舊金山", "Сан-Франциско", "de San Francicso"];
 var faded_elem2;
 faded_elem2 = document.getElementById('fadedSF'); fadedSlideSF();
 function fadedNextSF() {
@@ -197,4 +197,4 @@ if (window.innerWidth > 769 && window.innerHeight > 640) {
     origin: 'right',
     distance: '500px'
   });
-};
+}
