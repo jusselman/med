@@ -42,7 +42,12 @@
     margin-right: auto;
     margin-top: 20px;
     padding: 1em;
-    background: rgba(161, 240, 244, 0.3);
+    background-image: linear-gradient(
+      to right,
+      rgba(161, 240, 244, 0.3),
+      rgba(161, 250, 255, 0.75)
+    );
+    // background: rgba(118, 228, 234, 0.3);
     display: flex;
     flex-flow: row wrap;
     flex: 0 1 100%;
@@ -477,32 +482,24 @@
 
 // CONTACT US SECTION //
 .section-contact {
-  // span#status {
-  //   font-size: 2rem;
-  //   margin: 0 auto;
-  //   width: 100%;
-  //   display: block;
-  //   position: absolute;
-  // }
-
-  // .send-modal {
-  //   top: 50%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%);
-  //   height: 30%;
-  //   width: 30%;
-  //   background: white;
-  //   display: none;
-  // }
-
   .contact-location {
+    text-align: center;
+
     input {
       display: inline;
     }
 
-    // .contact-radio {
-    //   font-size: 40rem;
-    // }
+    .contact-city {
+      font-size: 1.5rem;
+    }
+
+    .contact-radio {
+      height: 1.5rem;
+      width: 1.5rem;
+      transform: translateY(0.25rem);
+      margin-left: -0.5rem;
+      margin-right: 0.25rem;
+    }
   }
 
   .send-result {

@@ -1279,7 +1279,7 @@ body,
 
 /* line 110, C:/Users/Josue/Desktop/med/scss/modules/_components.scss */
 .section-contact .contact {
-  background: #bde9ff;
+  background-image: linear-gradient(to right, #bde9ff, #ade4ff);
 }
 
 /* line 117, C:/Users/Josue/Desktop/med/scss/modules/_components.scss */
@@ -1334,13 +1334,18 @@ body,
   transition: all 1s ease-out;
 }
 
-/* line 161, C:/Users/Josue/Desktop/med/scss/modules/_components.scss */
+/* line 160, C:/Users/Josue/Desktop/med/scss/modules/_components.scss */
+.section-contact .contact form .contact-city {
+  text-align: center;
+}
+
+/* line 165, C:/Users/Josue/Desktop/med/scss/modules/_components.scss */
 .section-contact .contact .contact-radio {
   height: 15px;
   width: 15px;
 }
 
-/* line 167, C:/Users/Josue/Desktop/med/scss/modules/_components.scss */
+/* line 171, C:/Users/Josue/Desktop/med/scss/modules/_components.scss */
 .section-contact .contact form button:hover,
 .section-contact .contact form button:focus {
   background: #0070cd;
@@ -1398,19 +1403,19 @@ body,
   margin-right: auto;
   margin-top: 20px;
   padding: 1em;
-  background: rgba(161, 240, 244, 0.3);
+  background-image: linear-gradient(to right, rgba(161, 240, 244, 0.3), rgba(161, 250, 255, 0.75));
   display: flex;
   flex-flow: row wrap;
   flex: 0 1 100%;
   justify-content: space-evenly;
 }
 
-/* line 52, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 57, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-locations .address2 {
   margin-top: 20%;
 }
 
-/* line 56, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 61, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-locations h1 {
   text-align: center;
   z-index: 99;
@@ -1421,7 +1426,7 @@ body,
   color: #000;
 }
 
-/* line 65, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 70, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-locations h2 {
   text-align: center;
   font-size: 1.5rem;
@@ -1432,13 +1437,13 @@ body,
   color: #000;
 }
 
-/* line 75, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 80, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-locations h2,
 .section-locations h3 {
   text-align: center;
 }
 
-/* line 80, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 85, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-locations .oakland {
   position: absolute;
   margin-top: 600px;
@@ -1450,19 +1455,19 @@ body,
   text-decoration: none;
 }
 
-/* line 92, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 97, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .slide-fade-enter {
   transform: translateY(-40px);
   opacity: 0;
 }
 
-/* line 97, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 102, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .slide-fade-leave-to {
   transform: translateY(40px);
   opacity: 0;
 }
 
-/* line 104, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 109, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq {
   height: 100vh;
   background: #fff;
@@ -1471,12 +1476,12 @@ body,
   text-align: center;
 }
 
-/* line 111, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 116, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .click {
   color: #bde9ff;
 }
 
-/* line 114, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 119, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .arrow2 {
   width: 100%;
   transform: rotate(180deg);
@@ -1487,49 +1492,49 @@ body,
   animation: bounce 2s ease infinite;
 }
 
-/* line 124, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 129, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .questions a {
   text-decoration: none !important;
   color: #000 !important;
   font-size: 1.5rem;
 }
 
-/* line 130, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 135, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .questions a:not([href]) {
   color: #000 !important;
   text-decoration: none;
   display: block;
 }
 
-/* line 137, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 142, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .faq {
   padding-top: 5%;
 }
 
-/* line 141, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 146, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .questions {
   padding-top: 2%;
 }
 
-/* line 145, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 150, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq p {
   font-size: 1.5rem;
   margin-bottom: 0 !important;
 }
 
-/* line 150, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 155, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .answer {
   background-color: #bde9ff;
 }
 
-/* line 154, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 159, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq a {
   color: #0070cd !important;
   text-decoration: none;
   font-size: 1.5rem;
 }
 
-/* line 160, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 165, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .whiteBox {
   height: 400px;
   width: 50%;
@@ -1538,7 +1543,7 @@ body,
   padding-right: 0 !important;
 }
 
-/* line 168, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 173, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .twist {
   position: relative;
   top: 10px;
@@ -1553,12 +1558,12 @@ body,
   display: inline-block;
 }
 
-/* line 182, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 187, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .twist:hover {
   transform: rotate(360deg);
 }
 
-/* line 186, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 191, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq h1,
 .section-faq h4 {
   width: 40%;
@@ -1567,12 +1572,12 @@ body,
   display: block;
 }
 
-/* line 195, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 200, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .media-wrapper h1 {
   text-align: center;
 }
 
-/* line 200, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 205, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .faq-header {
   text-align: center;
   width: 30%;
@@ -1581,20 +1586,20 @@ body,
   padding-top: 125px;
 }
 
-/* line 209, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 214, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .questions li {
   list-style-type: none;
   padding-top: 50px;
   text-align: right;
 }
 
-/* line 216, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 221, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .answers {
   padding-left: 0 !important;
   transition: 1s;
 }
 
-/* line 220, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 225, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .answers li {
   text-align: left;
   list-style-type: none;
@@ -1603,13 +1608,13 @@ body,
   right: 0;
 }
 
-/* line 230, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 235, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq .qaextensive {
   text-align: center;
   width: 100%;
 }
 
-/* line 235, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 240, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-faq iframe {
   margin: 2rem auto;
   display: block;
@@ -1617,7 +1622,7 @@ body,
   border-radius: 1%;
 }
 
-/* line 244, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 249, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors {
   height: 100vh;
   background-image: linear-gradient(to right, #ebffff, #d2ffff);
@@ -1625,12 +1630,12 @@ body,
   color: #000;
 }
 
-/* line 251, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 256, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors .header {
   position: relative;
 }
 
-/* line 254, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 259, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors .header h1 {
   text-align: center;
   margin: 6rem auto;
@@ -1639,7 +1644,7 @@ body,
   display: block;
 }
 
-/* line 263, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 268, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors .arrow3 {
   font-size: 80px;
   width: 100%;
@@ -1651,7 +1656,7 @@ body,
   animation: bounce 2s ease infinite;
 }
 
-/* line 273, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 278, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors .arrow3 a {
   text-decoration: none !important;
   color: #000 !important;
@@ -1669,13 +1674,13 @@ body,
   }
 }
 
-/* line 291, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 296, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors .doctors {
   margin-left: 350px;
   margin-right: 350px;
 }
 
-/* line 296, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 301, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors .headshot {
   border: 12px solid #bde9ff;
   background-color: black;
@@ -1683,7 +1688,7 @@ body,
   background-color: transparent;
 }
 
-/* line 303, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 308, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors .headshot::before {
   position: absolute;
   content: 'testing';
@@ -1696,19 +1701,19 @@ body,
   font-size: 30rem;
 }
 
-/* line 315, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 320, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors .headshot:hover {
   background-color: black;
   opacity: 0.75;
 }
 
-/* line 320, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 325, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors a {
   color: #fff !important;
   text-decoration: none;
 }
 
-/* line 325, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 330, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors h2 {
   text-align: center;
   font-size: 2.5rem;
@@ -1720,14 +1725,14 @@ body,
   margin-right: auto;
 }
 
-/* line 336, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 341, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors h3 {
   text-align: center;
   font-size: 35px;
   color: #000;
 }
 
-/* line 342, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 347, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors .doctorPortal {
   width: 850px;
   height: 500px;
@@ -1736,7 +1741,7 @@ body,
   border-radius: 1em;
 }
 
-/* line 350, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 355, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-doctors img {
   width: 17rem;
   height: 17rem;
@@ -1745,7 +1750,7 @@ body,
   display: block;
 }
 
-/* line 361, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 366, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-staff {
   height: 100vh;
   text-align: center;
@@ -1753,7 +1758,7 @@ body,
   position: relative;
 }
 
-/* line 368, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 373, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-staff .header h1 {
   text-align: center;
   margin-top: 100px;
@@ -1765,7 +1770,7 @@ body,
   display: block;
 }
 
-/* line 380, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 385, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-staff h3 {
   text-align: center;
   font-size: 1.5rem;
@@ -1774,7 +1779,7 @@ body,
   margin: 35px auto;
 }
 
-/* line 388, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 393, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-staff img {
   height: 25rem;
   margin-left: auto;
@@ -1784,7 +1789,7 @@ body,
   border: 12px solid #bde9ff;
 }
 
-/* line 397, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 402, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-staff .arrow4 {
   color: #000;
   font-size: 80px;
@@ -1797,7 +1802,7 @@ body,
   animation: bounce 2s ease infinite;
 }
 
-/* line 408, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 413, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-staff .arrow4 a {
   text-decoration: none !important;
 }
@@ -1814,7 +1819,7 @@ body,
   }
 }
 
-/* line 427, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 432, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-media {
   text-align: center;
   height: 100vh;
@@ -1823,7 +1828,7 @@ body,
   position: relative;
 }
 
-/* line 434, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 439, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-media h1 {
   text-align: center;
   margin-top: 1.5em;
@@ -1832,7 +1837,7 @@ body,
   text-shadow: 2px 2px 4px #000000;
 }
 
-/* line 442, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 447, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-media img {
   width: 900px;
   height: 800px;
@@ -1841,12 +1846,12 @@ body,
   position: absolute;
 }
 
-/* line 450, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 455, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-media .media-link {
   color: #006bb6;
 }
 
-/* line 454, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 459, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-media .fa-arrow-right {
   color: white;
   font-size: 80px;
@@ -1870,12 +1875,31 @@ body,
   }
 }
 
-/* line 499, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 485, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+.section-contact .contact-location {
+  text-align: center;
+}
+
+/* line 488, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .contact-location input {
   display: inline;
 }
 
-/* line 508, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 492, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+.section-contact .contact-location .contact-city {
+  font-size: 1.5rem;
+}
+
+/* line 496, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+.section-contact .contact-location .contact-radio {
+  height: 1.5rem;
+  width: 1.5rem;
+  transform: translateY(0.25rem);
+  margin-left: -0.5rem;
+  margin-right: 0.25rem;
+}
+
+/* line 505, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .send-result {
   font-size: 2rem;
   margin: 0 auto;
@@ -1883,17 +1907,17 @@ body,
   display: block;
 }
 
-/* line 515, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 512, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .bg-design {
   position: relative;
 }
 
-/* line 519, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 516, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact h1.brand {
   padding-bottom: 40px;
 }
 
-/* line 524, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 521, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .brand h1 {
   text-align: center;
   z-index: 99;
@@ -1905,7 +1929,7 @@ body,
   padding-bottom: 50px;
 }
 
-/* line 535, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 532, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .brand h2 {
   text-align: center;
   font-size: 70px;
@@ -1917,13 +1941,13 @@ body,
   color: #fff;
 }
 
-/* line 547, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 544, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .contact-details {
   padding: 100px 50px;
   background: #fff;
 }
 
-/* line 552, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 549, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .box {
   max-width: 1170px;
   margin-left: auto;
@@ -1932,26 +1956,26 @@ body,
   padding: 1em;
 }
 
-/* line 562, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 559, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .contact-right {
   padding-top: 100px;
   background: #fff;
   text-align: center;
 }
 
-/* line 567, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 564, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .contact-right p {
   font-size: 1.5rem;
   padding-top: 35px;
 }
 
-/* line 571, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 568, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-contact .contact-right .diagram {
   height: 650px;
   margin-top: 50px;
 }
 
-/* line 579, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 576, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about {
   background-color: #fff;
   position: relative;
@@ -1959,40 +1983,40 @@ body,
   padding-bottom: 50px;
 }
 
-/* line 585, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 582, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .fas {
   transform: scale(1) rotate(0);
   transition: all 0.3s ease;
 }
 
-/* line 590, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 587, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .fas:hover {
   transform: scale(1.25) rotate(12deg);
 }
 
-/* line 594, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 591, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .border-between {
   margin-left: 350px;
   margin-right: 350px;
 }
 
-/* line 599, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 596, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .aao {
   padding: 50px 0 100px 0;
 }
 
-/* line 603, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 600, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .eyeSmart {
   transition: 1000;
 }
 
-/* line 607, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 604, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .eyeSmart img {
   opacity: 1;
   transition: 0.25s;
 }
 
-/* line 612, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 609, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .eyeSmart img:hover {
   opacity: 0.75;
   box-shadow: 0 1px 2px 1px #000;
@@ -2000,19 +2024,19 @@ body,
   transform: translateY(-10px);
 }
 
-/* line 620, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 617, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .ojoListo {
   transition: 1000;
 }
 
-/* line 624, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 621, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .ojoListo img {
   border-radius: 100%;
   opacity: 1;
   transition: 0.25s;
 }
 
-/* line 630, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 627, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .ojoListo img:hover {
   opacity: 0.75;
   box-shadow: 0 1px 2px 1px #000;
@@ -2020,14 +2044,14 @@ body,
   transform: translateY(-10px);
 }
 
-/* line 638, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 635, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about h1,
 .section-about h4,
 .section-about h2 {
   text-align: center !important;
 }
 
-/* line 644, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 641, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about h3,
 .section-about p {
   margin: 0 auto;
@@ -2036,7 +2060,7 @@ body,
   text-align: center;
 }
 
-/* line 652, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 649, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .fas {
   color: #0070cd;
   margin: 20px auto;
@@ -2045,7 +2069,7 @@ body,
   padding-top: 1rem;
 }
 
-/* line 660, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 657, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .about-header {
   text-align: center;
   width: 40%;
@@ -2054,7 +2078,7 @@ body,
   padding-top: 5%;
 }
 
-/* line 669, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 666, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .arrow2 {
   color: #0070cd;
   font-size: 80px;
@@ -2068,7 +2092,7 @@ body,
   animation: bounce 2s ease infinite;
 }
 
-/* line 681, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 678, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-about .arrow2 a {
   text-decoration: none !important;
 }
@@ -2085,12 +2109,12 @@ body,
   }
 }
 
-/* line 699, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 696, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-landscape {
   height: 100vh;
 }
 
-/* line 702, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
+/* line 699, C:/Users/Josue/Desktop/med/scss/modules/_sections.scss */
 .section-landscape .translate {
   height: 250px;
   width: 250px;

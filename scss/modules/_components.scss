@@ -108,7 +108,7 @@ body,
   }
 
   .contact {
-    background: $primary-color;
+    background-image: linear-gradient(to right, $primary-color, #ade4ff);
   }
 
   // FORM STYLES - INNPUTS AND WHATNOT //
@@ -155,6 +155,10 @@ body,
         font-size: 30px;
         border: 1px solid $bg;
         transition: all 1s ease-out;
+      }
+
+      .contact-city {
+        text-align: center;
       }
     }
 
