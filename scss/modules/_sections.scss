@@ -298,29 +298,42 @@
     margin-right: 350px;
   }
 
-  .headshot {
+  .headshot-image {
     border: 12px solid $bg;
-    background-color: black;
-    transition: all 0.3s ease-in;
-    background-color: transparent;
+    z-index: 2;
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+
+  .headshot-image:hover {
+    opacity: 0.5;
+  }
+
+  .headshot {
+    // background-color: black;
+    backface-visibility: hidden;
+    transition: all 0.3s ease;
+    // background-color: transparent;
   }
 
   .headshot::before {
     position: absolute;
-    content: 'testing';
+    content: 'Read More';
     background-color: black;
     top: 0;
-    left: 0;
+    // margin: 0 auto;
+    left: 3.5rem;
     width: 17rem;
     height: 17rem;
     border-radius: 100%;
-    font-size: 30rem;
+    font-size: 1.5rem;
+    z-index: 1;
   }
 
-  .headshot:hover {
-    background-color: black;
-    opacity: 0.75;
-  }
+  // .headshot:hover {
+  //   background-color: black;
+  //   opacity: 0.75;
+  // }
 
   a {
     color: #fff !important;
