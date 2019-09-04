@@ -18,7 +18,8 @@ Phone: $phoneNumber
 Email: $emailAddress
 $message";
 	// $headers = 'From: $from\n';
-	$headers .= 'Apointment Inquiry';
+	$headers .= 'From: ' . $from . "\r\n";
+	$headers .= 'Appointment Inquiry';
 	// $headers .= 'Content-type: text/html; charset=iso-8859-1\n';
 	if( mail($to, $subject, $message, $headers) ){
 		echo "Email Sent";

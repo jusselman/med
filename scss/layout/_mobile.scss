@@ -1,40 +1,33 @@
-
-@media(max-width:1200px)
-{
-
+@media (max-width: 1200px) {
   .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 
-.custom-toggler.navbar-toggler {
-  border-color: black;
-}
-
-
-}
-
-
-@media(max-width: 1462px) {
-
-  .section-doctors .doctors {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-}
-
-.section-about .border-between {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-}
-
-.section-staff {
-  height: 120vh !important;
-  .arrow4 {
-    margin: 20rem auto !important;
+  .custom-toggler.navbar-toggler {
+    border-color: black;
   }
 }
+
+@media (max-width: 1462px) {
+  .section-doctors .doctors {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .section-about .border-between {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .section-staff {
+    height: 120vh !important;
+    .arrow4 {
+      margin: 20rem auto !important;
+    }
+  }
 }
 
-@media(max-width:1100px) {
+@media (max-width: 1100px) {
   .arrow4 {
     display: none !important;
   }
@@ -42,38 +35,36 @@
     display: none !important;
   }
 }
-@media(max-width:1026px) {
+@media (max-width: 1026px) {
   font-size: 4rem;
 }
 
-@media(max-width: 856px) {
-  footer img {
-    display: none !important;
+@media (max-width: 856px) {
+  // footer img {
+  //   // display: none !important;
+  // }
+  .eyeSmart img {
+    height: 150px !important;
+    width: 150px !important;
+    margin-top: -30px !important;
   }
-  .eyeSmart img  {
-      height:150px !important;
-      width: 150px !important;
-      margin-top: -30px !important;
-    }
 
   .ojoListo img {
-      height:150px !important;
-      width: 150px !important;
-      margin-top: -30px !important;
-
-    }
+    height: 150px !important;
+    width: 150px !important;
+    margin-top: -30px !important;
+  }
 }
 
-@media(max-height:840px) {
+@media (max-height: 840px) {
   .arrow {
     margin: -250px auto !important;
   }
 }
 // Small Screens //
-@media(max-width: 769px) {
-
+@media (max-width: 769px) {
   body {
-    overflow-x:hidden;
+    overflow-x: hidden;
   }
   .navbar {
     height: 60px;
@@ -87,52 +78,50 @@
     padding-top: 75px !important;
   }
 
-   // body {
-   // text-align: center;
-   //  }
+  // body {
+  // text-align: center;
+  //  }
 
-.qanda {
-  width: 95% !important;
-}
+  .qanda {
+    width: 95% !important;
+  }
 
-.section-contact
-{
-  .contact form {
-   display: block !important;
- }
+  .section-contact {
+    .contact form {
+      display: block !important;
+    }
 
- .contact-details {
-   padding-top: 0 !important;
-   padding-bottom: 50px !important;
- }
- }
+    .contact-details {
+      padding-top: 0 !important;
+      padding-bottom: 50px !important;
+    }
+  }
 
- .section-doctors {
-   h1.info {
-     margin: 0 !important;
-   }
- h2 {
-     margin-top: 0 !important;
-     margin-bottom: 50px !important;
-   }
- }
+  .section-doctors {
+    h1.info {
+      margin: 0 !important;
+    }
+    h2 {
+      margin-top: 0 !important;
+      margin-bottom: 50px !important;
+    }
+  }
 
- .section-tanaka .bioImg img {
-   height: 15rem !important;
- }
+  .section-tanaka .bioImg img {
+    height: 15rem !important;
+  }
 
- .bioImg {
-   margin-top: 2rem!important;
- }
+  .bioImg {
+    margin-top: 2rem !important;
+  }
 
+  .eyeSmart {
+    padding: 2.5rem;
+  }
 
-.eyeSmart {
-  padding: 2.5rem;
-}
-
-.ojoListo {
-  padding: 2.5rem;
-}
+  .ojoListo {
+    padding: 2.5rem;
+  }
 
   // NAVBAR NAVBAR NAVBAR NAVBABKLSA;JFDKLDAS;JFKLSA;DJF //
   .navbar {
@@ -140,7 +129,7 @@
     // border-right: 1px solid $primary-color;
 
     .mobile-title {
-      display:block;
+      display: block;
       margin: 0 auto;
       font-size: 1.5rem;
     }
@@ -151,70 +140,58 @@
   }
 
   ul.navbar-nav {
+    background-color: #ebffff !important;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
 
-      background-color: #ebffff !important;
-      padding-bottom: .5rem;
-      border-radius: 10px;
-
-      .logo {
-        display: none;
-      }
+    .logo {
+      display: none;
+    }
   }
   .nav-item {
     text-align: margin-left;
 
-
-      h1 {
-        line-height: 2;
-      }
-
-      a:hover {
-        color: $primary-color;
-      }
+    h1 {
+      line-height: 2;
     }
 
-
+    a:hover {
+      color: $primary-color;
+    }
+  }
 
   .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 
-}
-
-.custom-toggler.navbar-toggler {
-border-color: $primary-color !important;
-}
+  .custom-toggler.navbar-toggler {
+    border-color: $primary-color !important;
+  }
 
   .nav-link:hover {
-      color: #000;
-      background-color: rgba(0,0,0,0) !important;
-      border-color: #2E6DA4 !important;
-      border-radius: 15px;
+    color: #000;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-color: #2e6da4 !important;
+    border-radius: 15px;
   }
 
   .nav-item.active {
-    background: rgba(0,0,0,0) !important;
+    background: rgba(0, 0, 0, 0) !important;
     border-radius: 15px;
-    a{
-      color:#000;
+    a {
+      color: #000;
     }
   }
 
-// CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL //
-.carousel {
-
+  // CAROUSEL CAROUSEL CAROUSEL CAROUSEL CAROUSEL //
+  .carousel {
     visibility: hidden !important;
-
   }
 
-
-
-
-
-// MAIN SECTION MAIN SECTIOTN MAIN SECTION //
+  // MAIN SECTION MAIN SECTIOTN MAIN SECTION //
   .section-main {
-
-      background-image: url('../img/mobileHome.jpg');
-      height: auto !important;
+    background-image: url('../img/mobileHome.jpg');
+    height: auto !important;
 
     h1 {
       font-size: 4em !important;
@@ -227,20 +204,21 @@ border-color: $primary-color !important;
     // #fadedSF {
     //   margin: 0;
     // }
-
   }
 
   #main {
-    line-height: .9 !important;
+    line-height: 0.9 !important;
     // margin: 0;
   }
-.main-content h2, .main-content h4, .main-content h3 {
-  margin:30px auto !important;
-}
+  .main-content h2,
+  .main-content h4,
+  .main-content h3 {
+    margin: 30px auto !important;
+  }
 
-.section-main h1.content {
-  margin-top: 4em !important;
-}
+  .section-main h1.content {
+    margin-top: 4em !important;
+  }
 
   footer {
     height: auto !important;
@@ -277,35 +255,33 @@ border-color: $primary-color !important;
   // ABOUT SECTION ABOUT SECTION ABOUT SECTION //
   .section-about {
     height: auto !important;
-  .border-between {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-  .about-header {
-    width: 100% !important;
-    margin-top: 20% !important;
-  }
-  .arrow2 {
-        display: none !important;
-  }
-  .eyeSmart img  {
-      height:200px !important;
+    .border-between {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+    .about-header {
+      width: 100% !important;
+      margin-top: 20% !important;
+    }
+    .arrow2 {
+      display: none !important;
+    }
+    .eyeSmart img {
+      height: 200px !important;
       width: 200px !important;
       margin-top: -30px !important;
     }
-  .ojoListo img {
-      height:200px !important;
+    .ojoListo img {
+      height: 200px !important;
       width: 200px !important;
       margin-top: -30px !important;
     }
-}
+  }
 
-
-// DOCTORS DOCTORS DOCTORS DOCTORS //
+  // DOCTORS DOCTORS DOCTORS DOCTORS //
   .section-doctors {
     height: auto !important;
     padding-bottom: 100px !important;
-
 
     .header {
       height: 100px !important;
@@ -328,32 +304,32 @@ border-color: $primary-color !important;
     .arrow3 {
       display: none !important;
     }
-
   }
 
   // STAFF STAFF STAFF STAFF STAFF STAFF //
 
-.section-staff {
-  height: auto !important;
+  .section-staff {
+    height: auto !important;
 
- .header h1 {
-   margin: 20% auto !important;
- }
+    .header h1 {
+      margin: 20% auto !important;
+    }
 
-  .image-staff, h1, h3 {
-
+    .image-staff,
+    h1,
+    h3 {
       width: 100% !important;
       // height: 75vh;
-  }
-  .arrow4 {
-    display: none !important;
-  }
+    }
+    .arrow4 {
+      display: none !important;
+    }
 
-  img {
-    width: auto !important;
-    height: auto !important;
+    img {
+      width: auto !important;
+      height: auto !important;
+    }
   }
-}
 
   // LOCATION LOCATION LOCATION LOCATION LOCATION //
 
@@ -371,99 +347,92 @@ border-color: $primary-color !important;
     }
   }
 
-// FAQ FAQ FAQ FAQ FAQ FAQ FAQ//
+  // FAQ FAQ FAQ FAQ FAQ FAQ FAQ//
 
-.section-faq {
-  height: auto !important;
+  .section-faq {
+    height: auto !important;
 
+    h1 {
+      width: 100% !important;
+    }
+    ul {
+      width: 100% !important;
+      margin: 0 auto;
+      display: block;
+    }
 
-  h1 {
-    width:  100% !important;
-      }
-  ul {
-    width: 100% !important;
-    margin: 0 auto;
-    display: block;
+    li {
+      // margin-left: 40px !important;
+      width: 90% !important;
+    }
+
+    .arrow2 {
+      display: none !important;
+    }
+
+    iframe {
+      width: 100%;
+    }
+
+    .media {
+      margin-top: 75px !important;
+    }
   }
 
-  li {
-    // margin-left: 40px !important;
+  .section-tanaka {
+    background-image: none !important;
+  }
+
+  .section-tanaka .bio h3 {
+    width: 100% !important;
+  }
+
+  .section-tanaka .bio {
     width: 90% !important;
   }
-
-  .arrow2 {
-    display: none !important;
-  }
-
-  iframe {
-    width: 100%;
-  }
-
-  .media {
-    margin-top: 75px !important;
-  }
- }
-
-
- .section-tanaka {
-   background-image: none !important;
- }
-
-
- .section-tanaka .bio h3{
-   width: 100% !important;
- }
-
- .section-tanaka .bio {
-   width: 90% !important;
- }
 }
 
 // extra small devices //
 
-@media(max-width: 576px) {
+@media (max-width: 576px) {
   .section-contact {
-
     .contact-details {
-
-  margin:0 !important;
-  padding: 0 !important;
-
-     }
-   }
-
-   .section-main {
-     h1.content {
-       margin-top: 4rem !important;
-       span {
-      font-size: 2.5rem;
-
+      margin: 0 !important;
+      padding: 0 !important;
     }
-    h2 {
-      font-size: 2rem;
+  }
+
+  .section-main {
+    h1.content {
+      margin-top: 4rem !important;
+      span {
+        font-size: 2.5rem;
+      }
+      h2 {
+        font-size: 2rem;
+      }
     }
-   }
- }
+  }
 
- .section-about {
-   .about-header {
-     margin-top: 10% !important;
-   }
-   .aao {
-     padding: 0 !important;
-   }
- }
+  .section-about {
+    .about-header {
+      margin-top: 10% !important;
+    }
+    .aao {
+      padding: 0 !important;
+    }
+  }
 
- .section-doctors {
-   padding-bottom: 25px !important;
+  .section-doctors {
+    padding-bottom: 25px !important;
 
-   .header {
-   padding-top: 25px !important;
- }
-}
+    .header {
+      padding-top: 25px !important;
+    }
+  }
 }
 
-@media(max-width:411px) {
+@media (max-width: 411px) {
   .navbar img {
     display: none;
   }
@@ -472,12 +441,14 @@ border-color: $primary-color !important;
   }
 }
 
-@media(max-height:450px) {
-  section, footer, nav {
+@media (max-height: 450px) {
+  section,
+  footer,
+  nav {
     display: none !important;
   }
 
   .section-landscape {
     display: block !important;
   }
-    }
+}
