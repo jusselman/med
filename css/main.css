@@ -727,198 +727,199 @@ html.sr .load-hidden {
   /* line 249, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   footer img {
     position: absolute;
-    left: 25px;
+    left: 50%;
+    transform: translate(-50%, 10rem);
   }
-  /* line 256, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 257, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-about {
     height: auto !important;
   }
-  /* line 258, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 259, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-about .border-between {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
-  /* line 262, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 263, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-about .about-header {
     width: 100% !important;
     margin-top: 20% !important;
   }
-  /* line 266, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 267, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-about .arrow2 {
     display: none !important;
   }
-  /* line 269, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 270, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-about .eyeSmart img {
     height: 200px !important;
     width: 200px !important;
     margin-top: -30px !important;
   }
-  /* line 274, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 275, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-about .ojoListo img {
     height: 200px !important;
     width: 200px !important;
     margin-top: -30px !important;
   }
-  /* line 282, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 283, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-doctors {
     height: auto !important;
     padding-bottom: 100px !important;
   }
-  /* line 286, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 287, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-doctors .header {
     height: 100px !important;
     padding-top: 100px !important;
   }
-  /* line 291, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 292, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-doctors h1 {
     width: 100% !important;
   }
-  /* line 295, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 296, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-doctors h2 {
     font-size: 2rem !important;
   }
-  /* line 298, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 299, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-doctors .doctors {
     margin-left: 0px !important;
     margin-right: 0px !important;
     margin-top: 6rem !important;
   }
-  /* line 304, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 305, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-doctors .arrow3 {
     display: none !important;
   }
-  /* line 311, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 312, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-staff {
     height: auto !important;
   }
-  /* line 314, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 315, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-staff .header h1 {
     margin: 20% auto !important;
   }
-  /* line 318, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 319, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-staff .image-staff,
   .section-staff h1,
   .section-staff h3 {
     width: 100% !important;
   }
-  /* line 324, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 325, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-staff .arrow4 {
     display: none !important;
   }
-  /* line 328, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 329, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-staff img {
     width: auto !important;
     height: auto !important;
   }
-  /* line 336, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 337, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-locations {
     height: auto !important;
   }
-  /* line 342, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 343, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-locations .oakland {
     margin: 1050px auto !important;
     display: block;
     width: 100%;
   }
-  /* line 352, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 353, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-faq {
     height: auto !important;
   }
-  /* line 355, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 356, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-faq h1 {
     width: 100% !important;
   }
-  /* line 358, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 359, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-faq ul {
     width: 100% !important;
     margin: 0 auto;
     display: block;
   }
-  /* line 364, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 365, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-faq li {
     width: 90% !important;
   }
-  /* line 369, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 370, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-faq .arrow2 {
     display: none !important;
   }
-  /* line 373, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 374, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-faq iframe {
     width: 100%;
   }
-  /* line 377, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 378, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-faq .media {
     margin-top: 75px !important;
   }
-  /* line 382, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 383, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-tanaka {
     background-image: none !important;
   }
-  /* line 386, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 387, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-tanaka .bio h3 {
     width: 100% !important;
   }
-  /* line 390, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 391, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-tanaka .bio {
     width: 90% !important;
   }
 }
 
 @media (max-width: 576px) {
-  /* line 399, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 400, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-contact .contact-details {
     margin: 0 !important;
     padding: 0 !important;
   }
-  /* line 406, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 407, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-main h1.content {
     margin-top: 4rem !important;
   }
-  /* line 408, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 409, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-main h1.content span {
     font-size: 2.5rem;
   }
-  /* line 411, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 412, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-main h1.content h2 {
     font-size: 2rem;
   }
-  /* line 418, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 419, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-about .about-header {
     margin-top: 10% !important;
   }
-  /* line 421, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 422, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-about .aao {
     padding: 0 !important;
   }
-  /* line 426, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 427, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-doctors {
     padding-bottom: 25px !important;
   }
-  /* line 429, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 430, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-doctors .header {
     padding-top: 25px !important;
   }
 }
 
 @media (max-width: 411px) {
-  /* line 436, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 437, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .navbar img {
     display: none;
   }
-  /* line 439, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 440, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .navbar .mobile-title {
     font-size: 1.25rem;
   }
 }
 
 @media (max-height: 450px) {
-  /* line 445, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 446, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   section,
   footer,
   nav {
     display: none !important;
   }
-  /* line 451, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
+  /* line 452, C:/Users/Josue/Desktop/med/scss/layout/_mobile.scss */
   .section-landscape {
     display: block !important;
   }
